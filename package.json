@@ -4,12 +4,16 @@
   "description": "> brief description",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "css-loader": "^5.2.1",
     "eslint": "^6.8.0",

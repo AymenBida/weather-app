@@ -13,17 +13,17 @@ module.exports = {
       {
         test: /\.scss$/i,
         use: [
-          "style-loader",
-          "css-loader",
-          "sass-loader"
-        ]
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
       },
       {
         test: /\.jpe?g$/i,
         use: [
-          "url-loader"
-        ]
-      }
-    ]
-  }
+          'url-loader',
+        ],
+      },
+    ],
+  },
 };
