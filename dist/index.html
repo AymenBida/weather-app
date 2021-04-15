@@ -12,7 +12,31 @@
 </head>
 
 <body>
-  
+  <div class="container d-flex justify-content-center align-items-center p-5">
+    <div class="w-100 mx-auto">
+      <h1 class="text-center">Weather App</h1>
+      <img height=200 width=200 src="" alt="" class="d-block mx-auto my-5">
+      <ul class="row">
+        <li class="col-4 text-center">
+          <p>Temperature</p>
+          <p id="temp"></p>
+        </li>
+        <li class="col-4 text-center">
+          <p>Humidity</p>
+          <p id="humidity"></p>
+        </li>
+        <li class="col-4 text-center">
+          <p>Wind</p>
+          <p id="wind"></p>
+        </li>
+      </ul>
+      <div class="my-5" action="">
+        <label for="city" class="form-label">City:</label>
+        <input id="city" type="text" class="form-control">
+        <button id="validate" class="btn btn-success my-3 d-block mx-auto">Validate</button>
+      </div>
+    </div>
+  </div>
 
 
 
