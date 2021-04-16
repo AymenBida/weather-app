@@ -12,8 +12,9 @@
 
 To get a local copy up and running follow these simple example steps.
 
-- git clone `git@github.com:AymenBida/weather-app.git`
-- cd into the `weather-app`
+- `git clone git@github.com:AymenBida/weather-app.git`
+- `cd weather-app`
+- `npm install`
 - open `dist/index.html` 
 
 ### Prerequisites
