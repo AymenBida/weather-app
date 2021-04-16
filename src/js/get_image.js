@@ -1,4 +1,4 @@
-const axios = require('axios').default;
+const axios = require('axios');
 
 export default async function getImage(keyword, apiKey) {
   try {
