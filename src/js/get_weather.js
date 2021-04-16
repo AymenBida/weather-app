@@ -1,4 +1,6 @@
+/* eslint-disable import/no-unresolved */
 const axios = require('axios');
+/* eslint-enable import/no-unresolved */
 
 export default async function getWeather(city, apiKey) {
   try {
