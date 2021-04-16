@@ -1,6 +1,8 @@
-## Title
+## Weather App
 
-> brief description
+> This is a web app where you can see the weather of the city of your choice by typing its name on a search bar
+
+![screenshot](./src/images/screenshot.png)
 
 ## Built With 
 
@@ -10,9 +12,9 @@
 
 To get a local copy up and running follow these simple example steps.
 
-- git clone `git@github.com:AymenBida/<repo>.git`
-- cd into the `<repo>`
-- open `index.html` 
+- git clone `git@github.com:AymenBida/weather-app.git`
+- cd into the `weather-app`
+- open `dist/index.html` 
 
 ### Prerequisites
 
@@ -34,11 +36,12 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AymenBida/<repo>/issues).
+Feel free to check the [issues page](https://github.com/AymenBida/weather-app/issues).
 
 ## Acknowledgments
 
-If any
+- OpenWeather API
+- GIPHY API
 
 ## Show your support
 
