@@ -1,0 +1,84 @@
+/* src/css/styles.css */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#weather {
+  position: relative;
+  background-color: rgba(146, 226, 226, 0.185);
+  padding: 4em 4em 0;
+  border-radius: 1em;
+  background-size: cover;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+#cityShow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.5em 0.5em 0 0;
+  font-size: 1.4em;
+  color: tomato;
+  font-weight: 600;
+}
+#tempSwitch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1em 0 0 0.5em;
+}
+#image {
+  border-radius: 1em;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22.66px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(35, 112, 184);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 17.33px;
+  width: 17.33px;
+  left: 2.66px;
+  bottom: 2.66px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #29bb66;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #29bb66;
+}
+input:checked + .slider::before {
+  -webkit-transform: translateX(17.33px);
+  -ms-transform: translateX(17.33px);
+  transform: translateX(17.33px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round::before {
+  border-radius: 50%;
+}
